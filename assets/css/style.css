@@ -504,6 +504,13 @@ html, body, p {
   transform: translateX(-50%);
 }
 
+.container .mona img.mobile {
+  display: none;
+}
+.container .mona img.desktop {
+  display: block;
+}
+
 .container .logo {
   width: 100px;
   position: absolute;
@@ -598,7 +605,10 @@ html, body, p {
     letter-spacing: 10px;
     background: rgba(0,0,0,.3);
   }
-  .container .mona {
+  .container .mona img.mobile {
+    display: block;
+  }
+  .container .mona img.desktop {
     display: none;
   }
   .container .logo {
