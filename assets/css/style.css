@@ -622,7 +622,7 @@ html, body, p {
   }
   .container .logo .blame {
     position: relative;
-    top: 1px !important;
+    top: 0 !important;
   }
 
   .container .info-izquierda {
